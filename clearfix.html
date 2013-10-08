@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Topics: Clearfix October, 5th 2013</title>
+		<style> 
+			h1,h2 {
+				font-family: helvetica, arial, serif 
+			}
+			h1 {
+				border-bottom: solid 2px #ff0000;
+			}
+			h2 {
+				border-bottom: groove 4px #ff00ff;
+			}
+			footer {
+				float: middle;
+				background-color: #00FFCC;
+				padding: 10px;
+				border: groove 1px #ff00ff;
+				margin: 20px 20px 20px 20px;
+			}
+
+		</style>
+	</head>
+	<body>
+		<nav><a href= "http://css-tricks.com/all-about-floats/">Clearfix</a>
+		</nav>
+		<h1>Clearfix</h1>
+
+		<section>
+			<h2>Summary</h2>
+			<p> TO fix a float collapse we use a clear fix. The clear fix hack is used to prevent strange layout and cross-browser problems. To execute a clear fix you must clear the float after the floated elements in the container but before the close of the container. The technique needed to clear fix in our Rainforest site is called the easy clearing method. THis method employs a CSS pseudo selector to clear floats. This applies to a small bit of content, hidden from view, after the parent element. This clears the float.
+			</p>
+			<p> I have had an issue with this explanation. In this tutorial it remains unclear where exactly you put the clear fix. I have tried to apply this method to our rainforest site but it doesnt seem to do anything. I believe I am having difficulty finding the parent element for which the code needs to be applied to. I hope to clearify this issue I am having in class on monday.
+			</p>
+		</section>
+		<footer>Trevor Glassman</footer>
+	</body>
+</html>
+
